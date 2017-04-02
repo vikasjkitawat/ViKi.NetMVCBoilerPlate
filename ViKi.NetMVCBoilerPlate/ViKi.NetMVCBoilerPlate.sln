@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViKi.NetMVCBoilerPlate.Web", "ViKi.NetMVCBoilerPlate\ViKi.NetMVCBoilerPlate.Web.csproj", "{B594D258-1B30-4ED6-B68A-B7989D91B1FB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2D65D285-08FF-4F02-BF2A-AE13ED85A33B} = {2D65D285-08FF-4F02-BF2A-AE13ED85A33B}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViKi.NetMVCBoilerPlate.Utilities", "ViKi.NetMVCBoilerPlate.Utilities\ViKi.NetMVCBoilerPlate.Utilities.csproj", "{EFE99E2D-36F7-475C-8063-2E799C755DC4}"
 EndProject
