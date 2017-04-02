@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ViKi.NetMVCBoilerPlate.Services.TestService" CodeBehind="TestService.svc.cs" %>
