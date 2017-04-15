@@ -80,6 +80,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ViKi.NetMVCBoilerPlate.Data\ViKi.NetMVCBoilerPlate.Data.csproj">
+      <Project>{2038aff1-a663-4275-8827-098224198da6}</Project>
+      <Name>ViKi.NetMVCBoilerPlate.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ViKi.NetMVCBoilerPlate.Utilities\ViKi.NetMVCBoilerPlate.Utilities.csproj">
+      <Project>{efe99e2d-36f7-475c-8063-2e799c755dc4}</Project>
+      <Name>ViKi.NetMVCBoilerPlate.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

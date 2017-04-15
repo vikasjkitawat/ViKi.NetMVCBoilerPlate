@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViKi.NetMVCBoilerPlate.Serv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViKi.NetMVCBoilerPlate.Tests", "ViKi.NetMVCBoilerPlate.Tests\ViKi.NetMVCBoilerPlate.Tests.csproj", "{5BB664D7-FD5C-41AB-BB08-D3093BF886B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViKi.NetMVCBoilerPlate.Data", "ViKi.NetMVCBoilerPlate.Data\ViKi.NetMVCBoilerPlate.Data.csproj", "{2038AFF1-A663-4275-8827-098224198DA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{5BB664D7-FD5C-41AB-BB08-D3093BF886B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BB664D7-FD5C-41AB-BB08-D3093BF886B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BB664D7-FD5C-41AB-BB08-D3093BF886B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2038AFF1-A663-4275-8827-098224198DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2038AFF1-A663-4275-8827-098224198DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2038AFF1-A663-4275-8827-098224198DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2038AFF1-A663-4275-8827-098224198DA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
